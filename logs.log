@@ -1,0 +1,1079 @@
+2026-08-19 14:24:09,861:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:24:09,862:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:24:09,862:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:24:09,862:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:58:32,794:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:58:32,797:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:58:32,797:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 14:58:32,797:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 15:02:10,437:INFO:Initializing load_model()
+2026-08-19 15:02:10,437:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:02:10,697:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-19 15:02:11,324:INFO:Initializing predict_model()
+2026-08-19 15:02:11,324:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002058FAFAB90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205FFE05260>)
+2026-08-19 15:02:11,324:INFO:Checking exceptions
+2026-08-19 15:02:11,324:INFO:Preloading libraries
+2026-08-19 15:02:11,324:INFO:Set up data.
+2026-08-19 15:02:11,356:INFO:Set up index.
+2026-08-19 15:16:29,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 15:16:29,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 15:16:29,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 15:16:29,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-19 15:19:12,136:INFO:Initializing load_model()
+2026-08-19 15:19:12,136:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:19:12,404:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-19 15:19:13,026:INFO:Initializing predict_model()
+2026-08-19 15:19:13,026:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020151DD3E90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002013496E340>)
+2026-08-19 15:19:13,026:INFO:Checking exceptions
+2026-08-19 15:19:13,026:INFO:Preloading libraries
+2026-08-19 15:19:13,026:INFO:Set up data.
+2026-08-19 15:19:13,054:INFO:Set up index.
+2026-08-19 15:19:50,568:INFO:Initializing load_model()
+2026-08-19 15:19:50,568:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:19:51,365:INFO:Initializing predict_model()
+2026-08-19 15:19:51,365:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000201506CA690>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002013466E520>)
+2026-08-19 15:19:51,366:INFO:Checking exceptions
+2026-08-19 15:19:51,366:INFO:Preloading libraries
+2026-08-19 15:19:51,369:INFO:Set up data.
+2026-08-19 15:19:51,403:INFO:Set up index.
+2026-08-19 15:20:14,329:INFO:Initializing load_model()
+2026-08-19 15:20:14,329:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:20:15,130:INFO:Initializing predict_model()
+2026-08-19 15:20:15,130:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000201505CB7D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020150C0BCE0>)
+2026-08-19 15:20:15,133:INFO:Checking exceptions
+2026-08-19 15:20:15,133:INFO:Preloading libraries
+2026-08-19 15:20:15,135:INFO:Set up data.
+2026-08-19 15:20:15,136:INFO:Set up index.
+2026-08-19 15:20:21,190:INFO:Initializing load_model()
+2026-08-19 15:20:21,190:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:20:21,993:INFO:Initializing predict_model()
+2026-08-19 15:20:21,993:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002011BAA1BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002013466E520>)
+2026-08-19 15:20:21,993:INFO:Checking exceptions
+2026-08-19 15:20:21,993:INFO:Preloading libraries
+2026-08-19 15:20:21,993:INFO:Set up data.
+2026-08-19 15:20:22,015:INFO:Set up index.
+2026-08-19 15:21:20,902:INFO:Initializing load_model()
+2026-08-19 15:21:20,903:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:21:21,748:INFO:Initializing predict_model()
+2026-08-19 15:21:21,748:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020151E1D350>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020150C0BCE0>)
+2026-08-19 15:21:21,748:INFO:Checking exceptions
+2026-08-19 15:21:21,748:INFO:Preloading libraries
+2026-08-19 15:21:21,751:INFO:Set up data.
+2026-08-19 15:21:21,763:INFO:Set up index.
+2026-08-19 15:21:51,895:INFO:Initializing load_model()
+2026-08-19 15:21:51,895:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:21:52,635:INFO:Initializing predict_model()
+2026-08-19 15:21:52,635:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020151E6AED0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020151E2A2A0>)
+2026-08-19 15:21:52,635:INFO:Checking exceptions
+2026-08-19 15:21:52,635:INFO:Preloading libraries
+2026-08-19 15:21:52,635:INFO:Set up data.
+2026-08-19 15:21:52,651:INFO:Set up index.
+2026-08-19 15:26:52,846:INFO:Initializing load_model()
+2026-08-19 15:26:52,846:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-19 15:26:53,521:INFO:Initializing predict_model()
+2026-08-19 15:26:53,521:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000201505E1450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020150CDD620>)
+2026-08-19 15:26:53,521:INFO:Checking exceptions
+2026-08-19 15:26:53,521:INFO:Preloading libraries
+2026-08-19 15:26:53,521:INFO:Set up data.
+2026-08-19 15:26:53,541:INFO:Set up index.
+2026-08-20 08:04:29,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 08:04:29,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 08:04:29,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 08:04:29,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 08:08:33,172:INFO:Initializing load_model()
+2026-08-20 08:08:33,172:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-20 08:08:33,364:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-20 08:08:33,859:INFO:Initializing predict_model()
+2026-08-20 08:08:33,859:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018B3995B550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018B1C65DDA0>)
+2026-08-20 08:08:33,859:INFO:Checking exceptions
+2026-08-20 08:08:33,859:INFO:Preloading libraries
+2026-08-20 08:08:33,859:INFO:Set up data.
+2026-08-20 08:08:33,876:INFO:Set up index.
+2026-08-20 16:35:14,798:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:35:14,798:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:35:14,798:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:35:14,798:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:36:12,850:INFO:Initializing load_model()
+2026-08-20 16:36:12,850:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-20 16:36:13,122:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-20 16:36:13,895:INFO:Initializing predict_model()
+2026-08-20 16:36:13,897:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000212316A2110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002121687DDA0>)
+2026-08-20 16:36:13,915:INFO:Checking exceptions
+2026-08-20 16:36:13,915:INFO:Preloading libraries
+2026-08-20 16:36:13,917:INFO:Set up data.
+2026-08-20 16:36:13,941:INFO:Set up index.
+2026-08-20 16:41:12,333:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:41:12,333:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:41:12,333:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:41:12,333:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:46:32,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:46:32,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:46:32,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:46:32,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:46:42,865:INFO:Initializing load_model()
+2026-08-20 16:46:42,865:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-20 16:46:43,103:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-20 16:46:43,553:INFO:Initializing predict_model()
+2026-08-20 16:46:43,553:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001B36BBEF250>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B34E84E340>)
+2026-08-20 16:46:43,553:INFO:Checking exceptions
+2026-08-20 16:46:43,553:INFO:Preloading libraries
+2026-08-20 16:46:43,553:INFO:Set up data.
+2026-08-20 16:46:43,581:INFO:Set up index.
+2026-08-20 16:48:57,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:48:57,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:48:57,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:48:57,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-08-20 16:49:40,917:INFO:Initializing load_model()
+2026-08-20 16:49:40,917:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-08-20 16:49:41,173:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-08-20 16:49:41,629:INFO:Initializing predict_model()
+2026-08-20 16:49:41,629:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002BCF78E8C90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'Dalc', 'Walc', 'health',
+                                             'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjo...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002BCF7C1A480>)
+2026-08-20 16:49:41,629:INFO:Checking exceptions
+2026-08-20 16:49:41,629:INFO:Preloading libraries
+2026-08-20 16:49:41,629:INFO:Set up data.
+2026-08-20 16:49:41,642:INFO:Set up index.
+2026-09-02 14:14:24,575:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+
+2026-09-02 14:14:24,577:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+
+2026-09-02 14:14:24,578:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+
+2026-09-02 14:14:24,578:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+
+2026-09-02 14:14:24,578:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+
+2026-09-02 14:14:24,732:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\matplotlib\_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+
+2026-09-02 14:14:25,700:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\yellowbrick\style\colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2026-09-02 14:14:25,703:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\setuptools\_distutils\version.py:336: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2026-09-02 14:14:25,707:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\yellowbrick\style\rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2026-09-02 14:14:25,707:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\setuptools\_distutils\version.py:336: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2026-09-02 14:14:26,097:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,100:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,103:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,113:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,117:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,119:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,122:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,124:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,126:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,131:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,133:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,136:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,139:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,162:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,165:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,168:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,173:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,176:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,179:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,182:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,184:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,187:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,194:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,198:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,200:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,201:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,203:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,205:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,206:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,209:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,211:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,214:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,216:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,218:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,221:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,223:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,225:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,227:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,230:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,232:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,237:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,239:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,245:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,247:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,255:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,257:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,261:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,264:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,266:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,271:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,273:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,275:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,277:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,280:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,283:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,286:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,288:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,292:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,296:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,298:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,301:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,304:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,306:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,308:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,316:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,323:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,330:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,336:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,342:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,348:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,352:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,356:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,359:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,361:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,362:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,365:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,380:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,382:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,383:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,390:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,393:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,394:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,399:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,404:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,406:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,408:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,413:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,415:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,417:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,420:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,423:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,425:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,428:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2026-09-02 14:14:26,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:14:26,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:14:26,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:14:26,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:14:26,542:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\scikitplot\plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2026-09-02 14:14:26,560:INFO:Initializing load_model()
+2026-09-02 14:14:26,560:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 14:14:26,634:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,636:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,666:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,666:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,668:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\pycaret\utils\_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2026-09-02 14:14:26,910:INFO:Initializing predict_model()
+2026-09-02 14:14:26,911:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BDC2176690>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'health', 'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjob', 'reason', 'g...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BDA6F1D9E0>)
+2026-09-02 14:14:26,911:INFO:Checking exceptions
+2026-09-02 14:14:26,911:INFO:Preloading libraries
+2026-09-02 14:14:26,911:INFO:Set up data.
+2026-09-02 14:14:26,928:INFO:Set up index.
+2026-09-02 14:19:57,725:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:19:57,725:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:19:57,725:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:19:57,725:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:19:58,079:INFO:Initializing load_model()
+2026-09-02 14:19:58,079:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 14:19:58,177:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 14:52:20,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:20,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:20,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:20,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:20,915:INFO:Initializing load_model()
+2026-09-02 14:52:20,915:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 14:52:21,004:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 14:52:50,284:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:50,285:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:50,285:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:50,285:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 14:52:50,640:INFO:Initializing load_model()
+2026-09-02 14:52:50,641:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 14:52:50,733:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 15:07:33,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:07:33,113:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:07:33,114:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:07:33,114:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:07:33,410:INFO:Initializing load_model()
+2026-09-02 15:07:33,410:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 15:07:33,492:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 15:11:15,775:INFO:Initializing predict_model()
+2026-09-02 15:11:15,775:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DE571CCC90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'health', 'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjob', 'reason', 'g...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001DE4FB71580>)
+2026-09-02 15:11:15,775:INFO:Checking exceptions
+2026-09-02 15:11:15,775:INFO:Preloading libraries
+2026-09-02 15:11:15,776:INFO:Set up data.
+2026-09-02 15:11:15,798:INFO:Set up index.
+2026-09-02 15:12:57,112:INFO:Initializing predict_model()
+2026-09-02 15:12:57,112:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001DE5714F950>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'health', 'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjob', 'reason', 'g...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001DE571A2160>)
+2026-09-02 15:12:57,112:INFO:Checking exceptions
+2026-09-02 15:12:57,112:INFO:Preloading libraries
+2026-09-02 15:12:57,112:INFO:Set up data.
+2026-09-02 15:12:57,119:INFO:Set up index.
+2026-09-02 15:20:21,137:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:20:21,137:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:20:21,137:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:20:21,137:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:20:21,445:INFO:Initializing load_model()
+2026-09-02 15:20:21,445:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 15:20:21,543:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 15:21:30,491:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:21:30,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:21:30,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:21:30,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:21:30,797:INFO:Initializing load_model()
+2026-09-02 15:21:30,798:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 15:21:30,857:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 15:22:01,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:22:01,881:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:22:01,881:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:22:01,881:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:22:02,464:INFO:Initializing load_model()
+2026-09-02 15:22:02,464:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 15:22:02,663:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-02 15:23:43,242:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:23:43,243:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:23:43,243:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:23:43,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-02 15:23:43,580:INFO:Initializing load_model()
+2026-09-02 15:23:43,580:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-02 15:23:43,684:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-03 10:15:48,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:15:48,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:15:48,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:15:48,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:15:48,867:INFO:Initializing load_model()
+2026-09-03 10:15:48,867:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-03 10:15:48,910:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-03 10:34:47,566:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:34:47,566:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:34:47,566:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:34:47,566:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-03 10:34:47,895:INFO:Initializing load_model()
+2026-09-03 10:34:47,895:INFO:load_model(model_name=C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\models\best_model, platform=None, authentication=None, verbose=True)
+2026-09-03 10:34:47,948:WARNING:C:\Users\knish\PycharmProjects\AutoML-Smart-Prediction\.venv\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-03 10:34:58,658:INFO:Initializing predict_model()
+2026-09-03 10:34:58,658:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000027F3C932690>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'Medu', 'Fedu',
+                                             'traveltime', 'studytime',
+                                             'failures', 'famrel', 'freetime',
+                                             'goout', 'health', 'absences'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['school', 'sex', 'address',
+                                             'famsize', 'Pstatus', 'Mjob',
+                                             'Fjob', 'reason', 'g...
+                                             'guardian'],
+                                    transformer=OneHotEncoder(cols=['Mjob',
+                                                                    'Fjob',
+                                                                    'reason',
+                                                                    'guardian'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 RandomForestRegressor(max_depth=5, min_impurity_decrease=0.01,
+                                       min_samples_leaf=2, min_samples_split=7,
+                                       n_estimators=280, n_jobs=-1,
+                                       random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000027F3C98CD60>)
+2026-09-03 10:34:58,661:INFO:Checking exceptions
+2026-09-03 10:34:58,661:INFO:Preloading libraries
+2026-09-03 10:34:58,661:INFO:Set up data.
+2026-09-03 10:34:58,690:INFO:Set up index.
