@@ -239,6 +239,7 @@ FastAPI:
 http://localhost:8000
 FastAPI Swagger:
 http://localhost:8000/docs
+## 15. Git Version Control
 15. Git Version Control
 Git is used to manage the source code of the project.
 The project is maintained in GitHub and DagsHub.
@@ -250,6 +251,7 @@ Model Files
 DVC Metadata
 Documentation
 Tests
+## 16. DVC Data Version Control
 16. DVC Data Version Control
 DVC is used to track the dataset instead of storing the dataset directly in Git.
 The dataset is tracked using:
@@ -261,6 +263,7 @@ dvc status
 Push dataset to DVC remote
 dvc push
 This allows the dataset to be version controlled separately from the source code.
+## 17. DagsHub
 17. DagsHub
 DagsHub is used for managing the machine-learning project and DVC data.
 Project repository:
@@ -278,6 +281,7 @@ DVC
 DagsHub DVC Storage
 while Git stores the DVC pointer:
 dataset.csv.dvc
+## 18. Project Structure
 18. Project Structure
 AutoML-Smart-Prediction/
 │
@@ -319,6 +323,7 @@ AutoML-Smart-Prediction/
 ├── requirements.txt
 ├── README.md
 └── main.py
+## 19. Installation
 19. Installation
 Clone the project repository and create a Python virtual environment.
 Create virtual environment
@@ -327,6 +332,7 @@ Activate virtual environment
 .venv\Scripts\activate
 Install dependencies
 pip install -r requirements.txt
+## 20. Running the Project
 20. Running the Project
 Step 1: Preprocess the dataset
 python src/data_preprocessing.py
@@ -343,6 +349,7 @@ uvicorn app.api:app --reload
 Step 7: Start Streamlit
 In another terminal:
 streamlit run app/streamlit_app.py
+## 21. Complete System Workflow
 21. Complete System Workflow
 UCI Student Dataset
         ↓
@@ -377,6 +384,7 @@ Streamlit      FastAPI
          │
          ▼
     Final Application
+## 22. Technologies Used
 22. Technologies Used
 Technology	Purpose
 Python	Programming language
