@@ -12,13 +12,13 @@ The trained model is integrated with:
 2. Problem Statement
 Predicting student academic performance can help identify students who may need additional academic support.
 The objective of this project is to build an automated machine-learning system that:
-1. Accepts student information as input.
-2. Processes the input using the trained ML pipeline.
-3. Predicts the student's final grade.
-4. Displays the predicted grade out of 20.
-5. Categorizes the predicted performance.
-3. Objectives
-The main objectives of this project are:
+- Accepts student information as input.
+- Processes the input using the trained ML pipeline.
+- Predicts the student's final grade.
+- Displays the predicted grade out of 20.
+- Categorizes the predicted performance.
+- Objectives
+3. The main objectives of this project are:
 - To preprocess the student performance dataset.
 - To select relevant features for prediction.
 - To avoid target leakage.
@@ -49,23 +49,22 @@ G1 and G2 were removed from the final prediction features because they are previ
 The preprocessing process is implemented in:
 src/data_preprocessing.py
 The preprocessing steps include:
-1. Loading the dataset using Pandas.
-2. Reading the semicolon-separated CSV file.
-3. Checking the dataset shape.
-4. Checking missing values.
-5. Checking duplicate records.
-6. Selecting G3 as the target variable.
-7. Removing G1 and G2.
-8. Removing romantic.
-9. Removing Dalc and Walc.
-10. Saving the processed dataset.
+- Loading the dataset using Pandas.
+- Reading the semicolon-separated CSV file.
+- Checking the dataset shape.
+- Checking missing values.
+- Checking duplicate records.
+- Selecting G3 as the target variable. 
+- Removing G1 and G2. 
+- Removing romantic. 
+- Removing Dalc and Walc. 
+- Saving the processed dataset.
 The processed dataset contains:
 395 rows
 28 columns
 This consists of:
 27 input features
-+
-1 target feature (G3)
++1 target feature (G3)
 The processed dataset is stored at:
 data/processed/processed_data.csv
 6. Features Used
@@ -161,13 +160,13 @@ Model Performance
 The prediction functionality is implemented in:
 src/predict.py
 The module:
-1. Loads the trained model.
-2. Accepts student information.
-3. Creates a Pandas DataFrame.
-4. Checks the required features.
-5. Passes the data through the trained PyCaret pipeline.
-6. Generates the predicted final grade.
-7. Returns the grade rounded to two decimal places.
+- Loads the trained model.
+- Accepts student information.
+- Creates a Pandas DataFrame.
+- Checks the required features.
+-Passes the data through the trained PyCaret pipeline. 
+- Generates the predicted final grade. 
+- Returns the grade rounded to two decimal places.
 Example:
 Predicted Grade: 10.73 / 20
 11. Streamlit Application
