@@ -1,0 +1,22 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# MLflow
+mlartifacts/
+mlflow.db
+
+# Logs
+logs.log
+src/logs.log
+
+# DVC cache
+.dvc/cache/
+
+# Temporary files
+*.tmp
