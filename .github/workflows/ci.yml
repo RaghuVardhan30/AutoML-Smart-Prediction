@@ -1,0 +1,47 @@
+
+name: AutoML Smart Prediction CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.9"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install dvc pytest
+
+      - name: Configure DVC Credentials
+        env:
+          DAGSHUB_USERNAME: ${{ secrets.DAGSHUB_USERNAME }}
+          DAGSHUB_TOKEN: ${{ secrets.DAGSHUB_TOKEN }}
+        run: |
+          dvc remote modify --local origin auth basic
+          dvc remote modify --local origin user "$DAGSHUB_USERNAME"
+          dvc remote modify --local origin password "$DAGSHUB_TOKEN"
+
+      - name: Download DVC Files
+        run: dvc pull -r origin
+
+      - name: Run Prediction Tests
+        run: pytest -v
+
+      - name: Validate Python Files
+        run: |
+          python -m compileall -q app src tests
